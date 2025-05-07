@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "street-scenery:block/cone_block"
+  }
+}

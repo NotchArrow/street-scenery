@@ -3,25 +3,22 @@
 	"id": "street-scenery",
 	"version": "${version}",
 	"name": "street-scenery",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Street styled decoration blocks mod!",
 	"authors": [
-		"Me!"
+		"NotchArrow"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/NotchArrow/street-scenery",
+		"sources": "https://github.com/NotchArrow/street-scenery"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/street-scenery/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.notcharrow.streetscenery.Streetscenery"
+          "com.notcharrow.streetscenery.StreetScenery"
 		]
 	},
-	"mixins": [
-		"street-scenery.mixins.json"
-	],
 	"depends": {
 		"fabricloader": ">=0.16.14",
 		"minecraft": "~1.21",
