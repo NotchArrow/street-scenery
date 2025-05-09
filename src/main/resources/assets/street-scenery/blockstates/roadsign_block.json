@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "street-scenery:block/roadsign_block"
+    }
+  }
+}

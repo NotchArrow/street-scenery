@@ -6,12 +6,15 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "street-scenery:cone_block"
+          "name": "street-scenery:roadsign_block"
         }
       ],
       "conditions": [
         {
           "condition": "minecraft:survives_explosion"
+        },
+        {
+          "condition": "minecraft:match_tool"
         }
       ]
     }

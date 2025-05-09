@@ -14,11 +14,11 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
-	public static final Block CONE_BLOCK = registerBlock("cone_block",
+	public static final Block ROADSIGN_BLOCK = registerBlock("roadsign_block",
 			new Block(AbstractBlock.Settings.copy(Blocks.WHITE_CONCRETE)));
 
 	private static void addItemsToGroup(FabricItemGroupEntries entries) {
-		entries.add(CONE_BLOCK);
+		entries.add(ROADSIGN_BLOCK);
 	}
 
 	private static Block registerBlock(String name, Block block) {
